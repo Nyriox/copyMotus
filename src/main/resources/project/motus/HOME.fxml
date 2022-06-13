@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="445.0" prefWidth="400.0" styleClass="dark-panel" stylesheets="@stylesheet.css" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/18">
+   <children>
+      <GridPane fx:id="gridpane" gridLinesVisible="true" layoutX="63.0" layoutY="168.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="-Infinity" prefWidth="55.0" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="-Infinity" prefWidth="55.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="55.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="-Infinity" prefWidth="55.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="-Infinity" prefWidth="55.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="-Infinity" prefHeight="55.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label textFill="WHITE" />
+            <Label textFill="WHITE" GridPane.columnIndex="1" />
+            <Label textFill="WHITE" GridPane.columnIndex="2" />
+            <Label textFill="WHITE" GridPane.columnIndex="3" />
+            <Label textFill="WHITE" GridPane.columnIndex="4" />
+         </children>
+      </GridPane>
+      <Text fill="WHITE" layoutX="50.0" layoutY="77.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MOTUS" textAlignment="CENTER" wrappingWidth="300.0">
+         <font>
+            <Font name="Wingdings 3" size="53.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
